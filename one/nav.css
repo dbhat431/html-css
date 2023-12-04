@@ -1,0 +1,27 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 50pt;
+    padding: 0px;
+    background-color: black; 
+    text-align: center;
+    border: 3px black solid;
+    border-width: 4px;
+    border-radius: 5px;
+}
+
+ul.navbar li {
+    display: inline;
+    text-align: center;
+}
+
+ul.navbar li a {
+    display: inline;
+    color: #fff; 
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color:black; 
+}
